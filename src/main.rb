@@ -15,6 +15,6 @@ class Main
     end
 end
 
-m = Main.new("../log/race.log")
+m = Main.new("log/race.log")
 m.run
 
