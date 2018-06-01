@@ -6,4 +6,4 @@ start:
 	@ruby src/main.rb
 
 test:
-	@rspec spec/*
+	@cd spec && rspec *
