@@ -21,6 +21,6 @@ RSpec.describe Parser, "parse_line" do
         expect(s[0]).to eq "23:49:08.277"
         expect(s[1]).to eq "038"
         expect(s[3]).to eq "F.MASSA"
-		expect(s.length).to eq 7
+        expect(s.length).to eq 7
 	end
 end
